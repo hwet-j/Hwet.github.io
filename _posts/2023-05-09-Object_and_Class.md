@@ -3,7 +3,7 @@ layout: post
 title:  "객체, 클래스, 인스턴스"
 date:   2023-05-09 03:30:13 +0800
 categories: Java
-tags: Object Class 
+tags: Object Class Instance
 comments: 1
 ---
 
