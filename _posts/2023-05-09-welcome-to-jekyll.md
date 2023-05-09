@@ -10,7 +10,7 @@ comments: 1
 	오버로딩은 같은 이름의 함수(메소드)를 여러개 정의하고, 매개변수의 타입과 개수를 다르게 하여 
 	다양한 호출에 응답할 수 있게 된다. 
 
-{% highlight ruby %}
+{% highlight java %}
 class OverloadingExample{
 		void cat(){
 			System.out.println("매개변수 없음");
