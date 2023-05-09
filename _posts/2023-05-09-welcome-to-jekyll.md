@@ -18,7 +18,7 @@ class OverloadingExample{
     	void cat(int a){
 			# System.out.println("매개변수 하나");
 			System.out.printf("현재 %d마리의 고양이가 있습니다.\n", %d);
-			// => 동일한 메소드지만 
+			// > 동일한 메소드지만 
     	}
     	void cat(String b){
 			//System.out.println("매개변수 하나");
