@@ -1,13 +1,12 @@
 ---
-published: true
 layout: post
-title:  "오버로딩과 오버라이딩"
-date:   2023-05-09 01:30:13 +0800
+title:  "객체와 클래스"
+date:   2023-05-09 03:30:13 +0800
 categories: Java
-tags: Array 
+tags: Object Class 
 comments: 1
 ---
-<오버로딩><br>
+<객체><br>
 	오버로딩은 같은 이름의 함수(메소드)를 여러개 정의하고, 매개변수의 타입과 개수를 다르게 하여 
 	다양한 호출에 응답할 수 있게 된다. 
 
