@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "객체, 클래스, 인스턴스"
-date:   "09 Mar 2023"
+date:   "`r format(Sys.Date())`"
 categories: Java
 tags: Object Class Instance
 comments: 1
