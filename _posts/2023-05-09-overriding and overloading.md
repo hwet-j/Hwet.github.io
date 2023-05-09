@@ -39,36 +39,36 @@ class OverloadingExample{
     	(메소드의 이름, 매개변수, 반환형이 모두 동일한 상황에서 상속받은 메소드를 덮어쓴다고 생각하면 된다.)<br>
     	--> 부모클래스(상위클래스)의 메소드는 무시하고, 자식클래스의(하위클래스)의 메소드를 사용하겠다.
     	
- {% hightlight java %}
- class Woman{ //부모클래스
-		    public String name;
-		    public int age;
-		    //info 메서드
-		    public void info(){
-		        System.out.println("여자의 이름은 "+name+", 나이는 "+age+"살입니다.");
-		    }
-		}
-		class Job extends Woman{ 		//Woman클래스(부모클래스)를 상속받음 : 
-		    String job;
-		    public void info() {	//부모(Woman)클래스에 있는 info()메서드를 재정의
-		        super.info();
-		        System.out.println("여자의 직업은 "+job+"입니다.");
-			    }
-		}
-		public class OverTest {
-		    public static void main(String[] args) {
-		        //Job 객체 생성
-		        Job job = new Job();
-		        //변수 설정
-		        job.name = "유리";
-		        job.age = 30;
-		        job.job = "프로그래머";
-		        //호출
-		        job.info();
-		    }
-		}
-    	// ===> 여자의 직업은 프로그래머입니다. 출력
- {% endhightlight %}
+{% highlight java %}
+class Woman{ //부모클래스
+	public String name;
+	public int age;
+	//info 메서드
+	public void info(){
+		System.out.println("여자의 이름은 "+name+", 나이는 "+age+"살입니다.");
+	}
+}
+class Job extends Woman{ 		//Woman클래스(부모클래스)를 상속받음 : 
+	String job;
+	public void info() {	//부모(Woman)클래스에 있는 info()메서드를 재정의
+		super.info();
+		System.out.println("여자의 직업은 "+job+"입니다.");
+	}
+}
+public class OverTest {
+	public static void main(String[] args) {
+		//Job 객체 생성
+		Job job = new Job();
+		//변수 설정
+		job.name = "유리";
+		job.age = 30;
+		job.job = "프로그래머";
+		//호출
+		job.info();
+	}
+}
+// ===> 여자의 직업은 프로그래머입니다. 출력
+{% endhighlight %}
     	
 상속, 인터페이스, 추상클래스에 대한 개념을 공부하고 개념을 이해하는것이 좋아보임
     	
