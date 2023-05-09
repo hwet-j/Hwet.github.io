@@ -50,5 +50,6 @@ class OverloadingExample{
 	ole.cat(); 		// => 매개변수 없음 출력
 	ole.cat(4);		// => 현재 4마리의 고양이가 있습니다. 출력
 	ole.cat("동물병원"); // => 고양이가 있는 곳은 동물병원입니다. 출력
-{% endhighlight %}
+</code>
+</pre>
 
