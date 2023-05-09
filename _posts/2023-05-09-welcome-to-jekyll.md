@@ -66,7 +66,7 @@ class OverloadingExample{
 		        job.info();
 		    }
 		}
-    	// ===> 여자의 직업은 프로그래머입니다. 가 출력됨
+    	// ===> 여자의 직업은 프로그래머입니다. 출력
  {% endhightlight %}
     	
     	
