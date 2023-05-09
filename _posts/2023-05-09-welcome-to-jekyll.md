@@ -69,5 +69,5 @@ class OverloadingExample{
     	// ===> 여자의 직업은 프로그래머입니다. 출력
  {% endhightlight %}
     	
-    	
+상속, 인터페이스, 추상클래스에 대한 개념을 공부하고 개념을 이해하는것이 좋아보임
     	
