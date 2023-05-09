@@ -1,16 +1,26 @@
 ---
 layout: post
-title:  "객체와 클래스"
+title:  "객체, 클래스, 인스턴스"
 date:   2023-05-09 03:30:13 +0800
 categories: Java
 tags: Object Class 
 comments: 1
 ---
-<객체><br>
-	오버로딩은 같은 이름의 함수(메소드)를 여러개 정의하고, 매개변수의 타입과 개수를 다르게 하여 
-	다양한 호출에 응답할 수 있게 된다. 
+### 클래스 <br>
+○ 개념
+	- 객체를 만들어 내가 위한 설계도 혹은 틀
+	- 연관되어 있는 변수와 메서드의 집합
+### 객체
+○ 개념
+	- 소프트웨어 세계에 구현할 대상
+	- 클래스에 선언된 모양 그대로 생성된 실체
+○ 특징
+	-'클래스의 인스턴스'라고도 부른다.
+	-객체는 모든 인스턴스를 대표하는 포괄적인 의미를 갖는다.
+	- oop관점에서 클래스의 타입으로 선언되었을 때 '객체'라고 부른다.
 
-{% highlight java %}
+<pre>
+<code>
 class OverloadingExample{
 		void cat(){
 			System.out.println("매개변수 없음");
@@ -32,42 +42,3 @@ class OverloadingExample{
 	ole.cat("동물병원"); // => 고양이가 있는 곳은 동물병원입니다. 출력
 {% endhighlight %}
 
-<오버라이딩><br>sfsdf
-    	상위 클래스가 가지고 있는 맴버변수가 하위 클래스로 상속되는 것처럼 상위 클래스가 가지고 있는 메소드도 하위 클래스로
-    	상속되어 하위 클래스에 사용할 수 있습니다. 또한, 하위클래스에서 메소드를 재정의해서 사용가능하다.
-    	(메소드의 이름, 매개변수, 반환형이 모두 동일한 상황에서 상속받은 메소드를 덮어쓴다고 생각하면 된다.)<br>
-    	--> 부모클래스(상위클래스)의 메소드는 무시하고, 자식클래스의(하위클래스)의 메소드를 사용하겠다.
-    	
- {% hightlight java %}
- class Woman{ //부모클래스
-		    public String name;
-		    public int age;
-		    //info 메서드
-		    public void info(){
-		        System.out.println("여자의 이름은 "+name+", 나이는 "+age+"살입니다.");
-		    }
-		}
-		class Job extends Woman{ 		//Woman클래스(부모클래스)를 상속받음 : 
-		    String job;
-		    public void info() {	//부모(Woman)클래스에 있는 info()메서드를 재정의
-		        super.info();
-		        System.out.println("여자의 직업은 "+job+"입니다.");
-			    }
-		}
-		public class OverTest {
-		    public static void main(String[] args) {
-		        //Job 객체 생성
-		        Job job = new Job();
-		        //변수 설정
-		        job.name = "유리";
-		        job.age = 30;
-		        job.job = "프로그래머";
-		        //호출
-		        job.info();
-		    }
-		}
-    	// ===> 여자의 직업은 프로그래머입니다. 출력
- {% endhightlight %}
-    	
-상속, 인터페이스, 추상클래스에 대한 개념을 공부하고 개념을 이해하는것이 좋아보임
-    	
