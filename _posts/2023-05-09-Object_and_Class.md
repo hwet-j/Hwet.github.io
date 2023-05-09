@@ -30,4 +30,11 @@ comments: 1
 * 즉, 인스턴스라는 용어는 반드시 클래스와 객체 사이의 관계로 한정지어서 사용할 필요는 없다.
 * 인스턴스는 어떤 원본(추상적인 개념)으로부터 '생성된 복제본'을 의미한다.
 
+'''java
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+'''
 
