@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "객체, 클래스, 인스턴스"
-date:   2023-05-09 03:30:13 +0800
+date:   "09 Mar 2023"
 categories: Java
 tags: Object Class Instance
 comments: 1
@@ -18,7 +18,8 @@ comments: 1
 	+ 특징
 		* '클래스의 인스턴스'라고도 부른다.
 		* 객체는 모든 인스턴스를 대표하는 포괄적인 의미를 갖는다.
-		* oop관점에서 클래스의 타입으로 선언되었을 때 '객체'라고 부른다.<br>
+		* oop관점에서 클래스의 타입으로 선언되었을 때 '객체'라고 부른다.
+		(Object-Oriented Programming : 객체 지향 프로그래밍)<br>
 + 인스턴스
 	+ 개념
 		* 설계도를 바탕으로 소프트웨어 세계에 구현된 구체적인 실체
