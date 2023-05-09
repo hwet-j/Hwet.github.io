@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "오버로딩과 오버라이딩"
-date:   "`r format(Sys.Date())`"
+date:   "2023-05-09 10:00"
 categories: Java
 tags: Array 
 comments: 1
