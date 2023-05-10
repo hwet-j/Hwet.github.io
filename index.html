@@ -12,7 +12,7 @@ css: ["index.css"]
           <i class="material-icons">date_range</i>
           {{post.date | date: "%Y-%m-%d %H:%M"}}		<!-- post 날짜 형식 설정 -->
         </p>
-        <p id="post-content">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
+        <!-- <p id="post-content">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p> -->
       </div>
       <div class="card-action">
         <a href="{{post.url | prepend: site.baseurl}}">
